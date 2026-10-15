@@ -1,16 +1,16 @@
-# MDPro3 Custom Cards — Build & Share Packs (`.ypk`)
+# MDPro4 Custom Cards — Build & Share Packs (`.ypk`)
 
-A short, practical guide to package your custom Yu-Gi-Oh! cards for **MDPro3**, upload them, and let others download them in-game.
+A short, practical guide to package your custom Yu-Gi-Oh! cards for **MDPro4**, upload them, and let others download them in-game.
 
 ---
 
 ## Table of Contents
 
 * [1) Prerequisites](#1-prerequisites)
-* [2) (Optional) Render your cards in MDPro3](#2-optional-render-your-cards-in-mdpro3)
+* [2) (Optional) Render your cards in MDPro4](#2-optional-render-your-cards-in-mdpro4)
 * [3) Build your pack with the Empty Model](#3-build-your-pack-with-the-empty-model)
 * [4) Upload your pack](#4-upload-your-pack)
-* [5) Install & use in MDPro3](#5-install--use-in-mdpro3)
+* [5) Install & use in MDPro4](#5-install--use-in-mdpro4)
 * [FAQ & Tips](#faq--tips)
 
 ---
@@ -28,7 +28,7 @@ Have these ready:
 ## 2) Build your pack with the Empty Model
 
 1. Download the **Empty Model** (`.ypk`)
-   👉 [Empty Model.ypk](https://github.com/ElderLich/MDPro3---Custom-Cards/raw/refs/heads/main/000.%20Empty/Empty%20Model.ypk)
+   👉 [Empty Model.ypk](https://github.com/ElderLich/MDPro4---Custom-Cards/raw/refs/heads/main/000.%20Empty/Empty%20Model.ypk)
 
 2. A **`.ypk`** is just a zip container. Open it with **WinRAR** or **7-Zip** and place your files in the following structure:
 
@@ -60,7 +60,7 @@ MyCustomPack.ypk
 You have two options to share your `.ypk`:
 
 * **Make a Pull Request** to the main repo:
-  👉 [https://github.com/ElderLich/MDPro3---Custom-Cards/tree/main](https://github.com/ElderLich/MDPro3---Custom-Cards/tree/main)
+  👉 [https://github.com/ElderLich/MDPro4---Custom-Cards/tree/main](https://github.com/ElderLich/MDPro4---Custom-Cards/tree/main)
 * **Upload via the browser** (clone the repo or add files directly on GitHub).
 
 **Naming scheme suggestion:** create a new numbered folder (helps ordering):
@@ -73,19 +73,19 @@ Place your `.ypk` file inside that folder.
 
 ---
 
-## 5) Install & use in MDPro3
+## 5) Install & use in MDPro4
 
-To allow MDPro3 to fetch your pack, you **must** share the **RAW link** to your `.ypk` file (other hosts like Google Drive won’t work for in-game downloads).
+To allow MDPro4 to fetch your pack, you **must** share the **RAW link** to your `.ypk` file (other hosts like Google Drive won’t work for in-game downloads).
 
 **Example RAW link:**
 
 ```
-https://github.com/ElderLich/MDPro3---Custom-Cards/raw/refs/heads/main/001.%20Diabound%20-%20Zorc/Zorc-Diabound.ypk
+https://github.com/ElderLich/MDPro4---Custom-Cards/raw/refs/heads/main/001.%20Diabound%20-%20Zorc/Zorc-Diabound.ypk
 ```
 
 *Screenshots (download flow):*
 
-* **MDPro3 → SETTINGS → EXPANSIONS → Download Custom Card Pack**
+* **MDPro4 → SETTINGS → EXPANSIONS → Download Custom Card Pack**
   ![Open download panel](https://media.discordapp.net/attachments/1410334156168232991/1410344476844494909/Screenshot_2025-08-27_212447.png?ex=68ceffa6\&is=68cdae26\&hm=1819c33921d23877628211562c1df50b67cc5f7753c8b98095b72bce50550941&=\&format=webp\&quality=lossless)
 
 * **Paste the RAW link**
@@ -108,7 +108,7 @@ https://github.com/ElderLich/MDPro3---Custom-Cards/raw/refs/heads/main/001.%20Di
 ## FAQ & Tips
 
 * **Why RAW links?**
-  MDPro3’s downloader expects a direct file response. GitHub’s **Raw** URL serves the file directly; many cloud hosts add HTML wrappers that break downloads.
+  MDPro4’s downloader expects a direct file response. GitHub’s **Raw** URL serves the file directly; many cloud hosts add HTML wrappers that break downloads.
 
 * **My pack doesn’t download. What should I check?**
 
